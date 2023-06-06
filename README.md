@@ -110,23 +110,23 @@ Asimismo se hablilitaran los botones "Execute", "Cancel" y "Reset". De click en 
 Se desplegara el Response body con informacion dentro la cual es un JWT Token el cual debemos de "copiar unicamente" lo que se encuentra entre comillas.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/7d8ef3cf-92a4-4ed1-acc0-b4a730658be2">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/5c5c6f59-5657-4ccc-b741-d103c4194530">
 </p>
 
 Posteriormente hacemos click en el boton "Authorice" que se encuentra del lado derecho de la pantalla en la parte superior. 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/68ec5bd6-d3f3-415d-bb7a-fe430e42de0c">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/5377593a-30f2-4839-b2d6-fa40b73d907e">
 </p>
 
 Se presentara un cuadro de dialogo en el cual pegaremos el JWT Token dentro del cuadro "Value" y hacemos click en "Authorize". Se colocolara un cuadro de dialogo donde se podra hacer "Logout" para salir o "Close" para cerrar el cuadro de dialogo y continuar con al documentacion. Hacemos click en close. 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/a4a1c891-eb24-4e31-ada7-f50320c29a7e">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/07041b55-5998-4d2e-bcb5-5536d2a142a7">
 </p>
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/fe38cab3-9b4b-4fce-8490-9818e9a76453">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/f45dba36-cd89-4009-abf9-64adc78724ce">
 </p>
 
 - `Registrar topico:` Una vez hecho el "login" documentaremos cada uno de los metodos del "topicos-controller" haremos click en "Post/topicos" donde registraremos un nuevo topico.
