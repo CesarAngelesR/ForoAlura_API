@@ -132,13 +132,13 @@ Se presentara un cuadro de dialogo en el cual pegaremos el JWT Token dentro del 
 - `Registrar topico:` Una vez hecho el "login" documentaremos cada uno de los metodos del "topicos-controller" haremos click en "Post/topicos" donde registraremos un nuevo topico.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/5db234bc-cda5-4e27-8efc-195fb66cb5e3">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/07db8ec2-a9cf-42a1-972d-bb81156559b2">
 </p>
 
 Se desplegara la informacion del metodo "Post/topicos" y haremos click en "Try it out" para habilitar el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/54ae1287-c415-4600-aeaa-7d1f25677385">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/1c3b28cd-ee89-4ed2-b07a-3900fa1d5951">
 </p>
 
 Se desplegara informacion y tambian se habilitara el Request body donde mediante formato JSON solicitara informacion para el regitro del topico. La informacion que solicita es:
@@ -151,7 +151,7 @@ Se desplegara informacion y tambian se habilitara el Request body donde mediante
 }`
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/d60178cc-f82a-4e3e-a57d-e35e44dcae90">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/6fc8903e-de54-4fef-95ea-9a17824d3d7f">
 </p>
 
 Una vez se llenen los requerimientos solicitados del metodo se da click en el boton "Execute" para ejecutar el metodo.
@@ -169,7 +169,7 @@ En caso de omitir alguno de los campos solicitados se regresara un mensaje de er
 Ejecutando correctamente el meotodo, nos arrojara un codigo 201 y el Response body nos dara un mensaje con el registro realizado incluyendo el "Id", la fecha de crecion y con el Status quedando finalemnte el topico registrado. 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/586e60d5-1828-4da8-a0ea-9ff2322a3488">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/7ce2fa6b-8ba4-4b2c-87f1-31be7a8e3077">
 </p>
 
 El campo Status tambien es de seleccion multiple y se encuentra como Enum:
