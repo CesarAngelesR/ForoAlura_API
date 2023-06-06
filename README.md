@@ -55,25 +55,25 @@ Asimismo, se implementa un mecanismo de autenticación en la API, para que solo 
 http://localhost:8080/swagger-ui/index.html
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/ff7994ef-9a18-4ee8-9717-2b323a31eba7">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/6f0a65d6-20ac-4d5d-910e-cc07c68742b3">
 </p>
 
 - `Hello`: Para verificar que la API se encuentra ejecutandose hacemos click en "GET/hello" del "hello-controller". 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f6676de3-8aa8-4ab5-95e9-15068f58fbb3">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/b00b8eba-479a-469f-9d03-9d336520fad2">
 </p>
 
 Una vez hecho click se desplegara informacion sobre el metodo "GET/hello" del "hello-controller" y en ella haremos click en el boton "Try it out".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/8df55528-836a-4f35-a7c1-1bc15708de6a">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/9c6d7063-f191-429c-b9ea-3763d52ca6fe">
 </p>
 
 Una vez hecho click se nos presentara un boton azul tamaño grande con el nombre "Execute" en el cual haremos click para ejecutar el metodo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f119fad7-df34-4743-a4b3-81a03ca330aa">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/5d26699f-81d8-417f-a536-1dcf378feea3">
 </p>
 
 Se deplegara el mensaje en Response body "Hello world from Mexico!" asimismo, se presentaran los botones "Execute", "Clear" y "Cancel". "Execute" volvera a ejecutar el metodo, "Clear" regresa al estado anterior al metodo y "Cancel" regresara al boton "Try it out"
