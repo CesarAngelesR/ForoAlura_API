@@ -79,19 +79,19 @@ Una vez hecho click se nos presentara un boton azul tamaño grande con el nombre
 Se deplegara el mensaje en Response body "Hello world from Mexico!" asimismo, se presentaran los botones "Execute", "Clear" y "Cancel". "Execute" volvera a ejecutar el metodo, "Clear" regresa al estado anterior al metodo y "Cancel" regresara al boton "Try it out"
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/15d9297b-c8b5-4635-9411-204c95784d94">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/dacb9906-954f-4d4c-ad85-678b7934cc02">
 </p>
 
 - `Login`: Para poder acceder a los metodos del "topicos-controller" es necesario que hagamos "login" para ello en el "autenticacion-controler" hacemos click en "POST/login"
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/71314d34-3640-4e98-bd17-32003f23a20f">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/14c44a1c-344c-4e8a-bfa0-7ff2f43d6e30">
 </p>
 
 Se desplegara informacion sobre el metodo y en ella haremos click en el boton "Try it out".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/6b18225b-c5ab-42e9-ba54-acc71578e749">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/898b73f9-70da-4b60-ad14-ee9a62e42d4c">
 </p>
 
 Se habilitara el Request body donde colocaremos el email y contraseña en formato JSON que por origen es:
@@ -104,7 +104,7 @@ Se habilitara el Request body donde colocaremos el email y contraseña en format
 Asimismo se hablilitaran los botones "Execute", "Cancel" y "Reset". De click en "Execute" una vez se ingresen los datos requeridos de Request body para ejecutar el metodo. El boton "Cancel" nos regresara el boton "Try it out" y el boton "Reset" reinciciara el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/d1ecef58-1d77-454e-b269-b6fd86539698">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/c8b076ce-14fc-497d-97d6-6de2d58c1f91">
 </p>
 
 Se desplegara el Response body con informacion dentro la cual es un JWT Token el cual debemos de "copiar unicamente" lo que se encuentra entre comillas.
