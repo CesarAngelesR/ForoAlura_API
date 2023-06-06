@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 	@GetMapping
 	public String helloWorld() {
-	    return "Hello world from Europe!";
+	    return "Hello world from Mexico!";
 	 }
 }

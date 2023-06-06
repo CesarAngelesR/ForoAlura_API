@@ -1,6 +1,7 @@
 package com.alura.foro.controller;
 
 import java.net.URI;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -24,12 +25,15 @@ import com.alura.foro.modelo.topico.DatosRespuestaTopico;
 import com.alura.foro.modelo.topico.Topico;
 import com.alura.foro.modelo.topico.TopicoRepository;
 
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
 
+
 @RestController
 @RequestMapping("/topicos")
+@SecurityRequirement(name = "bearer-key")
 public class TopicoController {
 
 	@Autowired
@@ -47,8 +51,8 @@ public class TopicoController {
 	}
 
 	@GetMapping
-	public ResponseEntity<Page<Topico>> listadoTopicos(@PageableDefault(size = 6) Pageable paginacion) {
-		return ResponseEntity.ok(topicoRepository.findAll(paginacion));
+	public ResponseEntity<Page<Object>> listadoTopicos(@PageableDefault(size = 6) Pageable paginacion) {
+		return ResponseEntity.ok(topicoRepository.findAll(paginacion).map(DatosListadoTopico::new));
 	}
 
 	@GetMapping("/{id}")
@@ -61,7 +65,7 @@ public class TopicoController {
 
 	@PutMapping
 	@Transactional
-	public ResponseEntity actualizarTopico(@RequestBody @Valid DatosActualizarTopico datosActualizarTopico) {
+	public ResponseEntity<DatosRespuestaTopico> actualizarTopico(@RequestBody @Valid DatosActualizarTopico datosActualizarTopico) {
 		Topico topico = topicoRepository.getReferenceById(datosActualizarTopico.id());
 		topico.actualizarDatos(datosActualizarTopico);
 		return ResponseEntity.ok(new DatosRespuestaTopico(topico.getId(), topico.getTitulo(), topico.getMensaje(),

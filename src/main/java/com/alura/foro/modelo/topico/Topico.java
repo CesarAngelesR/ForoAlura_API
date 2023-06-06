@@ -1,6 +1,6 @@
 package com.alura.foro.modelo.topico;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 import com.alura.foro.modelo.curso.Curso;
 
@@ -29,7 +29,7 @@ public class Topico {
 	private Long id;
 	private String titulo;
 	private String mensaje;
-	private LocalDateTime fecha = LocalDateTime.now();
+	private LocalDate fecha = LocalDate.now();
 	@Enumerated(EnumType.STRING)
 	private StatusTopico estatus = StatusTopico.NO_RESPONDIDO;
 	private String autor;
@@ -50,8 +50,8 @@ public class Topico {
 	    if (datosActualizarTopico.mensaje() != null) {
 	        this.mensaje = datosActualizarTopico.mensaje();
  	    }
-	    if (datosActualizarTopico.fechaCreacion() != null) {
-	        this.fecha = datosActualizarTopico.fechaCreacion();
+	    if (datosActualizarTopico.fecha() != null) {
+	        this.fecha = datosActualizarTopico.fecha();
  	    }
 	    if (datosActualizarTopico.status() != null) {
 	    	this.estatus = datosActualizarTopico.status();
