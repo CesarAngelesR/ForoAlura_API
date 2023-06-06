@@ -1,7 +1,7 @@
 # ▶️ API Rest | Foro Alura
 
 <p align="center" >
-     <img width="300" heigth="300" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/11d7c07f-be76-4980-8b11-a98acf2ddaea">
+     <img width="300" heigth="300" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/4fb8a7bc-df65-416d-95f3-e623f107865c">
 </p>
 
 ##  :bookmark_tabs: Indice:
@@ -35,7 +35,7 @@ Nuestra API va a centrarse específicamente en los tópicos, y debe permitir a l
 Asimismo, se implementa un mecanismo de autenticación en la API, para que solo los usuarios autenticados puedan interactuar con ella.
 
 <p align="center" >
-     <img width="300" heigth="300" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/95d269c3-89e2-422a-8483-0212ffcc541d">
+     <img width="300" heigth="300" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/c0570b3c-96d6-433d-9ce4-837302048347">
 </p>
 
 ---
