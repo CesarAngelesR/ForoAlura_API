@@ -1,10 +1,9 @@
-# :hotel: Sistema de Reservas y Huespedes | Hotel Alura
+# ▶️ API Rest | Foro Alura
 
 <p align="center" >
-     <img width="300" heigth="300" src="https://user-images.githubusercontent.com/91544872/189419040-c093db78-c970-4960-8aca-ffcc11f7ffaf.png">
+     <img width="300" heigth="300" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/11d7c07f-be76-4980-8b11-a98acf2ddaea">
 </p>
 
----
 ##  :bookmark_tabs: Indice:
 
 * [Descripcion del Proyecto](#pencil-descripcion-del-proyecto)
@@ -20,18 +19,26 @@
 ---
 ## :pencil: Descripcion del Proyecto:
 
-Sistema de reserva de hotel. Controle y administre de forma óptima y fácil el flujo de reservas y de huespédes del hotel. Esta herramienta le permitirá llevar un control completo y detallado de sus reservas y huéspedes, tendrá acceso a heramientas especiales para tareas específicas como lo son:
+API Rest Foro Alura. El foro alura es un lugar donde todos los alumnos de la plataforma Alura pueden colocar sus preguntas sobre determinados cursos, este mágico lugar está lleno de mucho aprendizaje y de colaboración entre alumnos, profesores y moderadores.
 
-- Registro de Reservas y Huéspedes
-- Edición de Reservas y Huéspedes existentes
-- Eliminar todo tipo de registros
+Esta API replica a nivel de back end este proceso usando Spring.
+
+Nuestra API va a centrarse específicamente en los tópicos, y debe permitir a los usuarios:
+
+- Crear un nuevo tópico
+- Mostrar todos los tópicos creados
+- Mostrar un tópico específico
+- Actualizar un tópico
+- Eliminar un tópico
+- Es lo que conocemos comúnmente como CRUD (CREATE, READ, UPDATE, DELETE).
+
+Asimismo, se implementa un mecanismo de autenticación en la API, para que solo los usuarios autenticados puedan interactuar con ella.
 
 <p align="center" >
-     <img width="300" heigth="300" src="https://user-images.githubusercontent.com/123194477/235321424-dca5a6dd-c4af-46a8-89bb-94a01110e846.png">
+     <img width="300" heigth="300" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/95d269c3-89e2-422a-8483-0212ffcc541d">
 </p>
 
 ---
-
 ## :chart_with_upwards_trend: Estado del proyecto:
 
 <h4 align="center">
@@ -44,166 +51,202 @@ Sistema de reserva de hotel. Controle y administre de forma óptima y fácil el 
 
 ## :white_check_mark: Características de la aplicación y demostración:
 
-- `Pantalla inicial`: Al ejecutar el sistema se ingresa a la pantalla de inicio. Para continuar hacer clic en LOGIN.
+- `Inicio de documentacion`: Para la documentacion de la API utilizaremos Swagger UI V2.1.0. Ingresamos a la dirección para iniciar una vez este corriendo el servidor de Spring Boot:
+http://localhost:8080/swagger-ui/index.html
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235364270-61f11037-5630-47fc-b515-f85b2724a2eb.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/ff7994ef-9a18-4ee8-9717-2b323a31eba7">
 </p>
 
-- `Login`: Al ingrear a la pantalla de LOGIN se solicitará se ingrese un nombre de usuario y su contraseña para que solo personal autorizado pueda hacer uso del sistema. Una vez ingresados los datos solicitados dar clic en ENTRAR. 
+- `Hello`: Para verificar que la API se encuentra ejecutandose hacemos click en "GET/hello" del "hello-controller". 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235364566-e2ac5fb0-5088-4f2f-bcf2-70fd1400509d.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f6676de3-8aa8-4ab5-95e9-15068f58fbb3">
 </p>
 
-- `Login incorrecto`: En caso de que los datos ingresados sean incorrectos arrojara un mensaje indicando que los datos no son correctos.
+Una vez hecho click se desplegara informacion sobre el metodo "GET/hello" del "hello-controller" y en ella haremos click en el boton "Try it out".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235364874-49f4a7ce-ce04-4088-acb1-3dfc019bf306.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/8df55528-836a-4f35-a7c1-1bc15708de6a">
 </p>
 
-- `Menú de usuario`: Al hacer Login correctamente entraremos al Menú de Usuario en el cual vamos a elegir entre dos opciones, Si queremos registrar una nueva reserva o si deseamos hacer la búsqueda de alguna reserva.
+Una vez hecho click se nos presentara un boton azul tamaño grande con el nombre "Execute" en el cual haremos click para ejecutar el metodo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235369571-fb2d284a-8262-40ad-8099-244e2fac72a8.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f119fad7-df34-4743-a4b3-81a03ca330aa">
 </p>
 
-- `Registro de Reservas`: Al elegir la opción Registro de Reservas en el Menú de usuario, nos lleva a la pantalla de Registro de Reservas, en ella realizaremos el registro de la reserva. 
+Se deplegara el mensaje en Response body "Hello world from Mexico!" asimismo, se presentaran los botones "Execute", "Clear" y "Cancel". "Execute" volvera a ejecutar el metodo, "Clear" regresa al estado anterior al metodo y "Cancel" regresara al boton "Try it out"
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235370396-08b24d73-abe7-4538-973b-8446a599e9e7.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/15d9297b-c8b5-4635-9411-204c95784d94">
 </p>
 
-Primeramente se solicita al fecha del "Check In" para lo cual seleccionaremos una fecha en el calendario. Para desplegarlo hacemos clic el icono que se encuentra al lado derecho de la caja de texto que tiene la siguiente forma:
+- `Login`: Para poder acceder a los metodos del "topicos-controller" es necesario que hagamos "login" para ello en el "autenticacion-controler" hacemos click en "POST/login"
 
 <p align="center" >
-     <img width="200" heigth="200" src="https://user-images.githubusercontent.com/123194477/235370331-2789cf16-aeab-401d-ac5b-d23a1a3e3179.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/71314d34-3640-4e98-bd17-32003f23a20f">
 </p>
 
-Una vez hecho clic el "Check In", se desplegará el calendario, en el buscaremos la fecha en que el huesped deseé hospedarse. El calendario esta configurado con el dia, mes y año actual.
+Se desplegara informacion sobre el metodo y en ella haremos click en el boton "Try it out".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235370523-225b57cf-f188-452e-9cfb-f84f9a4ccc4b.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/6b18225b-c5ab-42e9-ba54-acc71578e749">
 </p>
 
-De la misma forma el sistema nos solicitará la fecha de "Check Out" para lo cual haremos el mismo procedimiento que en con el Check In.
+Se habilitara el Request body donde colocaremos el email y contraseña en formato JSON que por origen es:
 
-Una vez teniendo capturadas las fechas de "Check In" y "Check Out", el sistema automaticamente nos arroja la cuota para el pago de la reservacion.
+`{
+  "email": "admin@admin",
+  "contrasena": "123456"
+}`
+
+Asimismo se hablilitaran los botones "Execute", "Cancel" y "Reset". De click en "Execute" una vez se ingresen los datos requeridos de Request body para ejecutar el metodo. El boton "Cancel" nos regresara el boton "Try it out" y el boton "Reset" reinciciara el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235370828-533d524f-c687-47e0-87fc-f2b31551a14b.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/d1ecef58-1d77-454e-b269-b6fd86539698">
 </p>
 
-Porteriormente nos solicitará la "forma de pago", para ello tenemos una caja de seleccion multiple donde se elije la opcion de pago haciendo clic en ella.
+Se desplegara el Response body con informacion dentro la cual es un JWT Token el cual debemos de "copiar unicamente" lo que se encuentra entre comillas.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235370969-28b08eeb-0e6c-49f9-b429-474e95571004.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/7d8ef3cf-92a4-4ed1-acc0-b4a730658be2">
 </p>
 
-Una vez terminado de llenar los campos solicitado daremos clic en siguiente para que se guarde la reserva.
+Posteriormente hacemos click en el boton "Authorice" que se encuentra del lado derecho de la pantalla en la parte superior. 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235371114-fe1a092b-d86c-4690-8df0-79f00a04e27b.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/68ec5bd6-d3f3-415d-bb7a-fe430e42de0c">
 </p>
 
-Una vez guardada la reserva nos aparecerá un mensaje de confirmacion con el "Id" de la reservación. Para continuar el registro del huesped hacer clic en ok en el mensaje.
+Se presentara un cuadro de dialogo en el cual pegaremos el JWT Token dentro del cuadro "Value" y hacemos click en "Authorize". Se colocolara un cuadro de dialogo donde se podra hacer "Logout" para salir o "Close" para cerrar el cuadro de dialogo y continuar con al documentacion. Hacemos click en close. 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235371280-3e577d04-2bda-46c0-b296-94143e7be95e.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/a4a1c891-eb24-4e31-ada7-f50320c29a7e">
 </p>
 
-- `Registro de Huesped`: En la pantalla de registro de huesped nos serán solicitados los datos del huesped que realizará la reservación.
-
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235371643-9df59e85-fbdd-45fe-8db5-dc5deed65ebb.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/fe38cab3-9b4b-4fce-8490-9818e9a76453">
 </p>
 
-Primeramente nos solicita el "nombre" del cliente para lo cual se hace clic en la caja de texto y en ella escribiremos con el teclado de la PC el nombre del cliente. De la misma forma haremos con el campo "apellido".
+- `Registrar topico:` Una vez hecho el "login" documentaremos cada uno de los metodos del "topicos-controller" haremos click en "Post/topicos" donde registraremos un nuevo topico.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235371820-c20607a2-c09d-4031-a468-574e442fab49.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/5db234bc-cda5-4e27-8efc-195fb66cb5e3">
 </p>
 
-Posteriormente nos solicitará la fecha de nacimiento del huesped para lo cual se hace el mismo procedimiento como en la pantalla de reservas en los campos de "Check In" y "Check Out", haciendo clic en la imagen del lado derecho del campo y se despliega el calendario para elegir la fecha.
+Se desplegara la informacion del metodo "Post/topicos" y haremos click en "Try it out" para habilitar el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235372102-1b4590ea-878a-4998-b3e1-456ad826d901.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/54ae1287-c415-4600-aeaa-7d1f25677385">
 </p>
 
-Seguidamente nos solicitará la nacionalidad del huesped para lo cual en una caja de seleccion multiple nos permite seleccionar alguna de la opciones. 
-`Tip`: Para que sea mas facil encontrar la nacionalidad del huesped podemos escribir las primeras dos letras de la nacionalidad una vez desplegada la caja de selección.
+Se desplegara informacion y tambian se habilitara el Request body donde mediante formato JSON solicitara informacion para el regitro del topico. La informacion que solicita es:
+
+`{
+  "titulo": "Se coloca en este campo el titulo del topico",
+  "mensaje": "En este campo se coloca el mensaje que se descea colocar",
+  "autor": "Se coloca el nombre de la persona que registra el topico",
+  "curso": "Se coloca el curso en el cual se tiene la duda o sugerencia. Es importante informar que este campo es de seleccion multiple y unicamente se pueden colocar 4 cursos: Front_End, Back_End, MySQL, Soft_Skills"
+}`
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235372281-3df364e1-06b1-4dd4-83ed-489bd942b359.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/d60178cc-f82a-4e3e-a57d-e35e44dcae90">
 </p>
 
-Posteriomente nos solicitará el numero de contacto del cliente para lo cual lo capturaremos con el teclado de la PC. 
-
-Asimismo, el `numero de reserva` los da automaticamente por lo que no es necesario capturarlo.
+Una vez se llenen los requerimientos solicitados del metodo se da click en el boton "Execute" para ejecutar el metodo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235373179-b9151c8e-40ac-49db-b04a-861519526864.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/7246d6ea-b659-4760-82cf-fabc5340cf59">
 </p>
 
-Seguidamente una vez teniendo capturados todos los datos solicitados, hacemos clic en guardar.
+En caso de omitir alguno de los campos solicitados se regresara un mensaje de error 400 en el Response body informando que el campo no debe ser nulo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235373313-f6c17ffe-9524-402e-be26-28f65f0ba747.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f1ea77cc-cbd8-4cb3-b98f-1d44a925c1e5">
 </p>
 
-Una vez hecho clic en guardar se desplegara una pantalla confirmando que los datos han sido guardados.
+Ejecutando correctamente el meotodo, nos arrojara un codigo 201 y el Response body nos dara un mensaje con el registro realizado incluyendo el "Id", la fecha de crecion y con el Status quedando finalemnte el topico registrado. 
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235373463-05054307-55c2-42eb-bbe9-1187bdf26a90.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/586e60d5-1828-4da8-a0ea-9ff2322a3488">
 </p>
 
-- `Búsqueda`: En el Menú de usuario haciendo clic en Búsqueda nos llevara a una nueva pantalla donde podremos buscar las reservas que se han realizado asi como los datos del huesped que realizó la reserva. De inicio nos mostrará dos pestañas una con la lista de huespedes y otra con la lista de reservas y la que estará activa sera la de huespedes. En cada una de las listas podremos hacer modificaciones a aca uno de los registros que se requieran.
+El campo Status tambien es de seleccion multiple y se encuentra como Enum:
+NO_RESPONDIDO, NO_SOLUCIONADO, SOLUCIONADO, CERRADO. Al momento de registrar se pondrá como "NO_RESPONDIDO" en automatico y posteriormente al momento de editar el topico sera posible cambiarlo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235391907-1d2892a3-4cad-4f18-a1c8-c64fb82bc063.png">
-</p>
-Para hacer una busqueda basta con colocar en el campo "Introducir el numero de ID de la reserva a buscar" el numero de reserva que desea buscar y posteriormente hacer clic en "BUSCAR" y nos regresara el registro que contiene la "reserva" asi como el "huesped".
-
-<p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235393661-90d57295-8257-49f6-a76a-fc1129a23c92.png">
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235393738-4aa5d863-b9b4-4c13-8d46-04c9163caa50.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/c03b9fb5-7b94-4947-a009-7bd167238f83">
 </p>
 
-- `Editar`: Para editar un registro haremos doble clic sobre la celda que deseemos editar y el set point se colocará en la misma para hacer las modificaciones necesarias.
+El boton "Clear" limpia el Request body. El boton "Cancel" cierra el Request body y el boton Reset regresa el metodo a su estado posterior y regresa el boton "Try it out".
+
+- `Edicion de topico:` Para editar un topico guardado hacemos click en "PUT/topicos" posteriormente hacemos click en el boton "Try it out" para habilitar el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235392356-2f62cb3b-ac1c-4970-a60b-d4360f715f0f.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f68ed9ec-868a-47cf-80da-f5447c4de320">
 </p>
 
-Una vez realizados los cambios pulsaremos la tecla enter para que el registro se seleccione por completo y despues haremos clic en editar para que los cambios sean guardados en la base de datos
+En el Request body debemos de colocar necesarimente el numero de "Id" para indicarl el topico que vamos a modificar. El los campos "Status" y "Curso" debemos considerar que son Enum y que unicamente se tiene que colocar alguno de las opciones disponibles.
+
+Status: Front_End, Back_End, MySQL, Soft_Skills.
+Curso: NO_RESPONDIDO, NO_SOLUCIONADO, SOLUCIONADO, CERRADO.
+
+En el JSON del Request body vamos ca colocar el "Id" y el campo a modificar, ejemplo vamos a modificar "titulo" y "mensaje" del topico con "Id" no. 4.
+
+`{
+  "id": 4,
+  "titulo": "Certificado",
+  "mensaje": "¿Cual es la manera de obtener el certificado del curso?"
+}`
+y damos click en "Execute" para ejecutar el metodo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235392677-6adc5493-3ff2-4668-a0ae-87d90b14f91a.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/2d47b91e-1c47-402d-b53d-9b8c41891dd5">
 </p>
 
-Una vez hayamos hecho clic en editar nos aparecera un mensaje confirmando que el registro se ha modificado con exito.
+Nos aparecera un codigo 200 y en el Response body el topico con las modificaciones realizadas.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235392962-9db920e5-ff10-4cab-b9cb-93e2a64fa0d7.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/72da65b3-4997-4152-ba09-6c99ec3fd191">
 </p>
 
-- `Eliminar`: Para eliminar un registro basta con seleccionar la fila en donde se encuentra el registro y hacer clic en eliminar. Nos aparecera un mensaje preguntando si deseamos eliminar el registro a lo cual hacemos clic en si para eliminar el registro o en no para cancelar la eliminacion del registro. Esto lo podemos realizar tanto en la lista de huespedes como en la lista de reservas.
+- `Lista de Topicos:` Para listar los topicos regitrados hacermos click el "GET/topicos" y hacemos click en "Try it out" para habiliar el Request body. En el Request body unicamente colocaremos en el JSON una llave abriendo y otra llave cerrando "{}" y damos click en "Execute".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235394013-55fa6248-27f6-4dfc-9259-7b89564f3c54.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/51dc0b49-ca0b-41bf-9b02-11cf8a53980b">
 </p>
 
-Haciendo clic en el mensaje si se elimino el registro seleccionado y nos aparecerá otro mensaje conformando que se ha eliminado el registro.
+Nos aparecera un codigo 200 y en el Response body una lista en formato JSON con la informacion de todos los topicos registrados.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235394285-eb62a896-1074-4e1d-a9f9-09a3f9dd3339.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/500403ef-1985-40c5-8b1d-632f9fab550c">
 </p>
 
-Se hace mencion que si se elimina un registro de una tabla, en la otra seguira el regitro relacionado al ID de la reserva por lo que se tendrá que eliminar tambien si asi se requiere.
+- `Busqueda de topico por Id:`  Para hacer una busqueda por "Id" hacemos click en "GET/topicos{id}" y porteriomente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo. En el ejemplo buscamos el topico con  "Id" no. 4.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235394514-6eefdc97-5f3f-4310-b283-1b5bb2265dad.png">
-     <img width="500" heigth="500" src="https://user-images.githubusercontent.com/123194477/235394699-8eb75e0f-cf38-45c8-8067-f60e0c9de09d.png">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/31a67fe8-17d7-47a1-b10a-7834e475fa25">
+</p>
+
+No aparecera un codigo 200 y en el Response body nos aparece el topico seleccionado en el "Id".
+
+<p align="center" >
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/d6541c78-169c-4987-9489-33cd1ec19ba5">
+</p>
+
+- `Eliminar topico`: Para eliminar un topico damos click en "DELETE/topicos{id}"y posteriormente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo.En el ejemplo eliminaremos el topico con  "Id" no. 4.
+
+<p align="center" >
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/b6be4352-3a8d-4d01-98d9-653c9982a3b9">
+ </p>
+
+Nos dara un codigo 200 con un "OK" lo cual indica que se elimino el registro.
+
+Si visualizamos la tabla topicos veremos que fue eliminado el topico con "Id" no. 4.
+
+<p align="center" >
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/1797def9-9248-4e1a-9308-060388e81e92">
 </p>
 
 ---
@@ -212,10 +255,14 @@ Se hace mencion que si se elimina un registro de una tabla, en la otra seguira e
 
 - Java
 - Eclipse
-- Biblioteca JCalendar
+- Spring Boot
 - MySql
-- Plugin WindowBuilder </br>
-
+- Spring Security
+- Spring Framework
+- Lombok
+- Flyway
+- Auth0
+- Springdoc Swagger
 ---
 
 ## :construction_worker: Personas Contribuyentes:
@@ -223,3 +270,4 @@ Se hace mencion que si se elimina un registro de una tabla, en la otra seguira e
 | [<img src="https://avatars.githubusercontent.com/u/123194477?v=4" width=115><br><sub>Cesar Angeles Rodriguez</sub>](https://github.com/CesarAngelesR) |  [<img src="https://avatars.githubusercontent.com/u/101413385?v=4" width=115><br><sub>Alura Latam Profes</sub>](https://github.com/aluralatamprofes) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
 | :---: | :---: | :---: |
 
+# API-REST-Foro-Alura
