@@ -91,7 +91,7 @@ Se deplegara el mensaje en Response body "Hello world from Mexico!" asimismo, se
 Se desplegara informacion sobre el metodo y en ella haremos click en el boton "Try it out".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/898b73f9-70da-4b60-ad14-ee9a62e42d4c">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/d0ad1500-6147-4c7b-9d03-48591b821b9d">
 </p>
 
 Se habilitara el Request body donde colocaremos el email y contraseña en formato JSON que por origen es:
@@ -101,7 +101,7 @@ Se habilitara el Request body donde colocaremos el email y contraseña en format
   "contrasena": "123456"
 }`
 
-Asimismo se hablilitaran los botones "Execute", "Cancel" y "Reset". De click en "Execute" una vez se ingresen los datos requeridos de Request body para ejecutar el metodo. El boton "Cancel" nos regresara el boton "Try it out" y el boton "Reset" reinciciara el Request body.
+Asimismo se hablilitaran los botones "Execute", "Cancel" y "Reset". El boton "Cancel" nos regresara el boton "Try it out" y el boton "Reset" reinciciara el Request body. De click en "Execute" una vez se ingresen los datos requeridos de Request body para ejecutar el metodo. 
 
 <p align="center" >
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/c8b076ce-14fc-497d-97d6-6de2d58c1f91">
@@ -150,14 +150,10 @@ Se desplegara informacion y tambian se habilitara el Request body donde mediante
   "curso": "Se coloca el curso en el cual se tiene la duda o sugerencia. Es importante informar que este campo es de seleccion multiple y unicamente se pueden colocar 4 cursos: Front_End, Back_End, MySQL, Soft_Skills"
 }`
 
-<p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/6fc8903e-de54-4fef-95ea-9a17824d3d7f">
-</p>
-
 Una vez se llenen los requerimientos solicitados del metodo se da click en el boton "Execute" para ejecutar el metodo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/7246d6ea-b659-4760-82cf-fabc5340cf59">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/6fc8903e-de54-4fef-95ea-9a17824d3d7f">
 </p>
 
 En caso de omitir alguno de los campos solicitados se regresara un mensaje de error 400 en el Response body informando que el campo no debe ser nulo.
