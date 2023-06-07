@@ -278,7 +278,5 @@ Si visualizamos la tabla tópicos veremos que fue eliminado el tópico con "Id" 
 
 ## :construction_worker: Personas Contribuyentes:
 
-| [<img src="https://avatars.githubusercontent.com/u/123194477?v=4" width=115><br><sub>Cesar Angeles Rodriguez</sub>](https://github.com/CesarAngelesR) |  [<img src="https://avatars.githubusercontent.com/u/101413385?v=4" width=115><br><sub>Alura Latam Profes</sub>](https://github.com/aluralatamprofes) |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
+| [<img src="https://avatars.githubusercontent.com/u/123194477?v=4" width=115><br><sub>Cesar Angeles Rodriguez</sub>](https://github.com/CesarAngelesR) |  <img src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/05400d51-1d86-4e5a-9064-3cafa9adebe9" width=115><br><sub>Eric Monné</sub> |  [<img src="https://avatars.githubusercontent.com/u/91544872?v=4" width=115><br><sub>Génesys Rondón</sub>](https://github.com/genesysaluralatam) |
 | :---: | :---: | :---: |
-
-# API-REST-Foro-Alura
