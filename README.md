@@ -217,17 +217,16 @@ Nos aparecera un codigo 200 y en el Response body el topico con las modificacion
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/516c811c-330f-4e67-9dac-a2d050fd61e7">
 </p>
 
-
 - `Lista de Topicos:` Para listar los topicos regitrados hacermos click el "GET/topicos" y hacemos click en "Try it out" para habiliar el Request body. En el Request body unicamente colocaremos en el JSON una llave abriendo y otra llave cerrando "{}" y damos click en "Execute".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/51dc0b49-ca0b-41bf-9b02-11cf8a53980b">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/1e015391-d1dc-4ae4-b3ad-606fe549011f">
 </p>
 
 Nos aparecera un codigo 200 y en el Response body una lista en formato JSON con la informacion de todos los topicos registrados.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/500403ef-1985-40c5-8b1d-632f9fab550c">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/37e7145c-36ac-425c-8a85-dd589083a65a">
 </p>
 
 - `Busqueda de topico por Id:`  Para hacer una busqueda por "Id" hacemos click en "GET/topicos{id}" y porteriomente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo. En el ejemplo buscamos el topico con  "Id" no. 4.
