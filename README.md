@@ -10,7 +10,7 @@
 
 * [Estado del proyecto](#chart_with_upwards_trend-estado-del-proyecto)
 
-* [Características de la aplicación y demostración](#white_check_mark-caracteristicas-de-la-aplicacion-y-demostracion)
+* [Características de la aplicación y demostración](#white_check_mark-caracter%C3%ADsticas-de-la-aplicaci%C3%B3n-y-demostraci%C3%B3n)
 
 * [Tecnologías utilizadas](#%EF%B8%8F-tecnologías-utilizadas)
 
