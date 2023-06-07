@@ -229,30 +229,34 @@ Nos aparecera un codigo 200 y en el Response body una lista en formato JSON con 
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/37e7145c-36ac-425c-8a85-dd589083a65a">
 </p>
 
-- `Busqueda de topico por Id:`  Para hacer una busqueda por "Id" hacemos click en "GET/topicos{id}" y porteriomente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo. En el ejemplo buscamos el topico con  "Id" no. 4.
+- `Busqueda de topico por Id:`  Para hacer una busqueda por "Id" hacemos click en "GET/topicos{id}" y porteriomente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo. En el ejemplo buscamos el topico con  "Id" no. 5.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/31a67fe8-17d7-47a1-b10a-7834e475fa25">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/7ac18bed-fbc7-4dbf-a885-d14ced2e5502">
 </p>
 
 No aparecera un codigo 200 y en el Response body nos aparece el topico seleccionado en el "Id".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/d6541c78-169c-4987-9489-33cd1ec19ba5">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/ba1dcfbc-38d5-4f2d-9b65-c3af3126fe4f">
 </p>
 
-- `Eliminar topico`: Para eliminar un topico damos click en "DELETE/topicos{id}"y posteriormente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo.En el ejemplo eliminaremos el topico con  "Id" no. 4.
+- `Eliminar topico`: Para eliminar un topico damos click en "DELETE/topicos{id}"y posteriormente en "Try it out" para habilitar el Request body y colocar el "Id" y hacer click en "Execute" para ejecutar el metodo.En el ejemplo eliminaremos el topico con  "Id" no. 5.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/b6be4352-3a8d-4d01-98d9-653c9982a3b9">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/fb055e2e-dc67-4f27-aa42-1fe61bd7f00a">
  </p>
 
 Nos dara un codigo 200 con un "OK" lo cual indica que se elimino el registro.
 
-Si visualizamos la tabla topicos veremos que fue eliminado el topico con "Id" no. 4.
+<p align="center" >
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/638b6f58-a3c8-4cb2-9b2e-d4e34870a72c">
+</p>
+
+Si visualizamos la tabla topicos veremos que fue eliminado el topico con "Id" no. 5.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/1797def9-9248-4e1a-9308-060388e81e92">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/0fdbc895-1b7c-49d2-97fd-76fc85e9d6f5">
 </p>
 
 ---
