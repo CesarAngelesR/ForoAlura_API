@@ -94,8 +94,6 @@ Se desplegara informacion sobre el metodo y en ella haremos click en el boton "T
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/99fac27c-4531-4332-8369-ada97017fe6d">
 </p>
 
-
-
 Se habilitara el Request body donde colocaremos el email y contraseña en formato JSON que por origen es:
 
 `{
@@ -164,7 +162,6 @@ En caso de omitir alguno de los campos solicitados se regresara un mensaje de er
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/a6dbab19-c602-47ac-b2b6-99c2647d9f29">
 </p>
 
-
 Ejecutando correctamente el meotodo, nos arrojara un codigo 201 y el Response body nos dara un mensaje con el registro realizado incluyendo el "Id", la fecha de crecion y con el Status quedando finalemnte el topico registrado. 
 
 <p align="center" >
@@ -200,27 +197,26 @@ Curso: NO_RESPONDIDO, NO_SOLUCIONADO, SOLUCIONADO, CERRADO.
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/ed7af2d3-a170-45c3-ae96-3e7e2aa8ca3b">
 </p>
 
-
-
-
 En el JSON del Request body vamos ca colocar el "Id" y el campo a modificar, ejemplo vamos a modificar "titulo" y "mensaje" del topico con "Id" no. 4.
 
 `{
-  "id": 4,
-  "titulo": "Certificado",
-  "mensaje": "¿Cual es la manera de obtener el certificado del curso?"
+  "id": 5,
+  "titulo": "¿Duda sobre Querys de MySQL",
+  "mensaje": "¿Las Querys de MySQL tambien se escriben en mayusculas en el archivo SQL del migrate?"
 }`
+
 y damos click en "Execute" para ejecutar el metodo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/2d47b91e-1c47-402d-b53d-9b8c41891dd5">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/abb0d6ca-650c-4aba-bd3e-b11608f48fdc">
 </p>
 
 Nos aparecera un codigo 200 y en el Response body el topico con las modificaciones realizadas.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/72da65b3-4997-4152-ba09-6c99ec3fd191">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/516c811c-330f-4e67-9dac-a2d050fd61e7">
 </p>
+
 
 - `Lista de Topicos:` Para listar los topicos regitrados hacermos click el "GET/topicos" y hacemos click en "Try it out" para habiliar el Request body. En el Request body unicamente colocaremos en el JSON una llave abriendo y otra llave cerrando "{}" y damos click en "Execute".
 
