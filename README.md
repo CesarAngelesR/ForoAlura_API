@@ -6,7 +6,7 @@
 
 ##  :bookmark_tabs: Indice:
 
-* [Descripcion del Proyecto](https://github.com/CesarAngelesR/ForoAlura_API/edit/main/README.md#pencil-descripci%C3%B3n-del-proyecto)
+* [Descripcion del Proyecto](#pencil-descripci%C3%B3n-del-proyecto)
 
 * [Estado del proyecto](https://github.com/CesarAngelesR/ForoAlura_API/edit/main/README.md#chart_with_upwards_trend-estado-del-proyecto)
 
