@@ -178,20 +178,30 @@ NO_RESPONDIDO, NO_SOLUCIONADO, SOLUCIONADO, CERRADO. Al momento de registrar se 
      <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/eca6ffae-ce81-457c-8fc9-fccd4646d36d">
 </p>
 
-
-
 El boton "Clear" limpia el Request body. El boton "Cancel" cierra el Request body y el boton Reset regresa el metodo a su estado posterior y regresa el boton "Try it out".
 
 - `Edicion de topico:` Para editar un topico guardado hacemos click en "PUT/topicos" posteriormente hacemos click en el boton "Try it out" para habilitar el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f68ed9ec-868a-47cf-80da-f5447c4de320">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/098b268c-f8f6-4502-9752-3e517c24bf52">
 </p>
 
 En el Request body debemos de colocar necesarimente el numero de "Id" para indicarl el topico que vamos a modificar. El los campos "Status" y "Curso" debemos considerar que son Enum y que unicamente se tiene que colocar alguno de las opciones disponibles.
 
 Status: Front_End, Back_End, MySQL, Soft_Skills.
+
+<p align="center" >
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/eca6ffae-ce81-457c-8fc9-fccd4646d36d">
+</p>
+
 Curso: NO_RESPONDIDO, NO_SOLUCIONADO, SOLUCIONADO, CERRADO.
+
+<p align="center" >
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/ed7af2d3-a170-45c3-ae96-3e7e2aa8ca3b">
+</p>
+
+
+
 
 En el JSON del Request body vamos ca colocar el "Id" y el campo a modificar, ejemplo vamos a modificar "titulo" y "mensaje" del topico con "Id" no. 4.
 
