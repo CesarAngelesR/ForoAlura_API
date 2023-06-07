@@ -91,8 +91,10 @@ Se deplegara el mensaje en Response body "Hello world from Mexico!" asimismo, se
 Se desplegara informacion sobre el metodo y en ella haremos click en el boton "Try it out".
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/d0ad1500-6147-4c7b-9d03-48591b821b9d">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/99fac27c-4531-4332-8369-ada97017fe6d">
 </p>
+
+
 
 Se habilitara el Request body donde colocaremos el email y contraseña en formato JSON que por origen es:
 
@@ -138,7 +140,7 @@ Se presentara un cuadro de dialogo en el cual pegaremos el JWT Token dentro del 
 Se desplegara la informacion del metodo "Post/topicos" y haremos click en "Try it out" para habilitar el Request body.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/1c3b28cd-ee89-4ed2-b07a-3900fa1d5951">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/c53c511c-231c-4b30-ba2a-f1732d9ae32e">
 </p>
 
 Se desplegara informacion y tambian se habilitara el Request body donde mediante formato JSON solicitara informacion para el regitro del topico. La informacion que solicita es:
@@ -159,8 +161,9 @@ Una vez se llenen los requerimientos solicitados del metodo se da click en el bo
 En caso de omitir alguno de los campos solicitados se regresara un mensaje de error 400 en el Response body informando que el campo no debe ser nulo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/f1ea77cc-cbd8-4cb3-b98f-1d44a925c1e5">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/a6dbab19-c602-47ac-b2b6-99c2647d9f29">
 </p>
+
 
 Ejecutando correctamente el meotodo, nos arrojara un codigo 201 y el Response body nos dara un mensaje con el registro realizado incluyendo el "Id", la fecha de crecion y con el Status quedando finalemnte el topico registrado. 
 
@@ -172,8 +175,10 @@ El campo Status tambien es de seleccion multiple y se encuentra como Enum:
 NO_RESPONDIDO, NO_SOLUCIONADO, SOLUCIONADO, CERRADO. Al momento de registrar se pondrá como "NO_RESPONDIDO" en automatico y posteriormente al momento de editar el topico sera posible cambiarlo.
 
 <p align="center" >
-     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/API-REST-1/assets/123194477/c03b9fb5-7b94-4947-a009-7bd167238f83">
+     <img width="500" heigth="500" src="https://github.com/CesarAngelesR/ForoAlura_API/assets/123194477/eca6ffae-ce81-457c-8fc9-fccd4646d36d">
 </p>
+
+
 
 El boton "Clear" limpia el Request body. El boton "Cancel" cierra el Request body y el boton Reset regresa el metodo a su estado posterior y regresa el boton "Try it out".
 
